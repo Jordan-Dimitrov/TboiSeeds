@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title style="color: ghostwhite">Tboi seeds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style>
+    body {
+        color: white;
+    }
+    body {
+        background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/250900/4897a7ee61404539a8b96907b87793b52acf2ca5.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<div class="text-center">
+    <h1 type="submit">Tboi seeds</h1>
+</div>
+
+<div class="text-center">
+    <form>
+        username:<br>
+        <input type="text" data-key='username' class='user-input' required ><br>
+        description:<br>
+        <input type="text" data-key='description' class='user-input' required><br>
+        seed:<br>
+        <input type="text" pattern='[^!@#$%^&*()_+}|{"?>|@№5IOUiou]{8}' data-key='seed' required class='user-input'><br>
+        <br>
+        <button class="button  button4"type="All" type="submit" value="Submit" id="add-user-btn">Add seed</button>
+        <br>
+    </form>
+    <button class="button  button4"type="All" onClick="myFunction()">All seeds</button>
+    <script>
+        function myFunction() {
+            window.location.href="all.html";
+        }
+    </script>
+
+
+    <button class="button  button4"type="All" type="Generate random seed" onClick="myFunction2()">Random seed</button>
+    <script>
+        function myFunction2() {
+            window.location.href="generate.html";
+        }
+    </script>
+</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>

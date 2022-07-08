@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title style="color:white;">Generate random seed</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <style>
+    body {
+      color: white;
+    }
+    body {
+      background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/250900/4897a7ee61404539a8b96907b87793b52acf2ca5.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+  <div class="text-center">
+    <h1 type="submit">Random seed</h1>
+    </h1>
+    <script>
+      function RandomSeed() {
+        var seed = ["N62G K7JW", "D4E4 YK0G ", "QN1W 1DDF", "8Z1E 0TAK", "NLZE 1YE8","H9FG 81HH","HCER LV8R", "0E81 79LB", "EWFF C733", "SPFF AR34", "ZBC2MB22", "8PXPVYP4", "F1NX CJKK", "N6VQ-L18F", "EV0F CJ7K", "XBW3 W9PC","F1NX CJKK","LVBWEFQ9"]
+        var num = Math.floor((Math.random() * seed.length) + 1);
+        num = Math.round(num);
+        return seed[num];
+      }
+      document.write(RandomSeed());
+    </script>
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+  </body>
+
+</html>
